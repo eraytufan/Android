@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_player2">Player2</string>
+    <string name="title_activity_easy">Easy</string>
+    <string name="title_activity_hard_mode">HardMode</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9306668647827970/7577891649</string>
+</resources>

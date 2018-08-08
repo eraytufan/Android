@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    compileOptions.encoding = 'windows-1251'
+
+    defaultConfig {
+        applicationId "com.eraytufan14.tictactoescary"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 3
+        versionName "1.0.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.google.android.gms:play-services-ads:7.5.0'
+}
